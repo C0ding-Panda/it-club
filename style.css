@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "EduQLD";
+    src: url("./schriftarten/EduQLDBeginner.ttf")
+}
+body{
+    font-family: EduQLD;
+    background-color: #b0f9a0;
+}
+#oh-div{
+    background-color: #8bd086;
+    width: 95vw;
+    border-style: hidden;
+    border-radius: 10vw;
+    height: 16vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+#obere-header{
+    border-style: dotted;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 0.8vw;
+    width: 90vw;
+    font-size: 5vw;
+    margin-left: 3%;
+}
+#logo{
+    width: 10vw;
+    height: auto;
+}
