@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IT-Gruppe</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" type="image/png" href="./computer.png">
+    <link rel="shortcut icon" type="image/png" href="./code-logo.png">
 </head>
 <body>
     <div id="oh-div">
         <h1 id="obere-header">Wilkommen auf der Website des IT-Clubs</h1>
-        <img src="./security-logo.png" id="logo">
+        <img src="./code-logo.png" id="logo">
     </div>
     <div class="text">
         <p>
         
         </p>
+    </div>
+    <div id="pdf-div">
+        <button onclick="pdfanzeigen()" id="pdf-btn">PDF einblenden</button>
+        <button onclick="plus()" id="plus-btn"><img src="./plus.png" id="plusbild"></button>
+        <button onclick="minus()" id="minus-btn"><img src="./minus.png" id="minusbild"></button>
+        <iframe src="./IT-Club.pdf" id="pdf-iframe">IT-pdf</iframe>
     </div>
     <script src="script.js"></script>
 </body>
