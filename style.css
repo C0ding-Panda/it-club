@@ -6,6 +6,9 @@ body{
     font-family: EduQLD;
     background-color: #b0f9a0;
 }
+a{
+    text-decoration: none;
+}
 #oh-div{
     background-color: #8bd086;
     width: 95vw;
@@ -81,4 +84,20 @@ body{
 #minusbild{
     width: 4vw;
     height: 4vw;
+}
+#download-btn{
+    width: 8vw;
+    height: 7vw;
+    font-family: EduQLD;
+    font-size: 1.5vw;
+    font-weight: 700;
+    background-color: #8bd086;
+    border-color: #8bd086;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 0.5vw;
+    margin: 2%;
+    display: none;
+    justify-content: center;
+    align-items: center;
 }
