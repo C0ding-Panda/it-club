@@ -45,10 +45,10 @@ a{
     display: none;
 }
 #pdf-btn{
-    width: 8vw;
-    height: 7vw;
+    width: 10vw;
+    height: 9vw;
     font-family: EduQLD;
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-weight: 700;
     background-color: #8bd086;
     border-color: #8bd086;
@@ -58,8 +58,8 @@ a{
     margin: 2%;
 }
 #plus-btn{
-    width: 8vw;
-    height: 7vw;
+    width: 10vw;
+    height: 9vw;
     background-color: #8bd086;
     border-color: #8bd086;
     border-radius: 20px;
@@ -68,12 +68,12 @@ a{
     margin: 2%;
 }
 #plusbild{
-    width: 4vw;
-    height: 4vw;
+    width: 5vw;
+    height: 5vw;
 }
 #minus-btn{
-    width: 8vw;
-    height: 7vw;
+    width: 10vw;
+    height: 9vw;
     background-color: #8bd086;
     border-color: #8bd086;
     border-radius: 20px;
@@ -82,14 +82,14 @@ a{
     margin: 2%;
 }
 #minusbild{
-    width: 4vw;
-    height: 4vw;
+    width: 5vw;
+    height: 5vw;
 }
 #download-btn{
-    width: 8vw;
-    height: 7vw;
+    width: 10vw;
+    height: 9vw;
     font-family: EduQLD;
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-weight: 700;
     background-color: #8bd086;
     border-color: #8bd086;
@@ -104,4 +104,18 @@ a{
 #pdf-table{
     border-spacing: 5vw;
     width: 60%;
+}
+#bild{
+    width: 60vw;
+    height: 60vw;
+    background-color: #8bd086;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: hidden;
+    border-radius: 20vw;
+}
+#coderin{
+    width: 50vw;
+    height: auto;
 }
