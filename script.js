@@ -58,5 +58,12 @@ function klicksMessen() {
                 document.getElementById("pdf-iframe").style.height = "95vw";
                 break;   
         }
+        if (anzahlKlicks < -1){
+            window.alert("Wie groß ist bitte dein Bildschirm???");
+        }
+        if (anzahlKlicks > 5){
+            window.alert("Wie klein ist bitte dein Bildschirm???");
+        }
     }
 }
+

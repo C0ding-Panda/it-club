@@ -101,3 +101,7 @@ a{
     justify-content: center;
     align-items: center;
 }
+#pdf-table{
+    border-spacing: 5vw;
+    width: 60%;
+}
