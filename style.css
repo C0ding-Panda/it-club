@@ -34,14 +34,17 @@ a{
     width: 12vw;
     height: auto;
 }
-#pdf-iframe{
+#pdf-img{
     width: 35vw;
-    height: 50vw;
+    height:90vw;
     border-style: solid;
     border-radius: 3vw;
     border-width: 1vw;
     border-color: #8bd086;
     margin-top: 3%;
+    display: none;
+}
+#pdf{
     display: none;
 }
 #pdf-btn{

@@ -1,15 +1,15 @@
 var klicked = true;
 function pdfanzeigen(){
     if(klicked) {
-        document.getElementById("pdf-iframe").style.display = "flex";
+        document.getElementById("pdf-img").style.display = "flex";
         document.getElementById("pdf-btn").innerHTML = "PDF ausblenden";
         document.getElementById("download-btn").style.display = "flex";
         klicked = false;
     }
     else{
-        document.getElementById("pdf-iframe").style.display = "none";
-        document.getElementById("pdf-iframe").style.width = "35vw";
-        document.getElementById("pdf-iframe").style.height = "50vw";
+        document.getElementById("pdf-img").style.display = "none";
+        document.getElementById("pdf-img").style.width = "35vw";
+        document.getElementById("pdf-img").style.height = "50vw";
         document.getElementById("download-btn").style.display = "none";
         document.getElementById("pdf-btn").innerHTML = "PDF einblenden";
         anzahlKlicks = 0;
@@ -27,35 +27,35 @@ function minus(){
 }
 
 function klicksMessen() {
-    if(document.getElementById("pdf-iframe").style.display == "flex") {
+    if(document.getElementById("pdf-img").style.display == "flex") {
         switch(anzahlKlicks) {
             case -1:
-                document.getElementById("pdf-iframe").style.width = "30vw";
-                document.getElementById("pdf-iframe").style.height = "45vw";
+                document.getElementById("pdf-img").style.width = "30vw";
+                document.getElementById("pdf-img").style.height = "85vw";
                 break;
             case 0:
-                document.getElementById("pdf-iframe").style.width = "35vw";
-                document.getElementById("pdf-iframe").style.height = "50vw";
+                document.getElementById("pdf-img").style.width = "35vw";
+                document.getElementById("pdf-img").style.height = "90vw";
                 break;
             case 1:
-                document.getElementById("pdf-iframe").style.width = "40vw";
-                document.getElementById("pdf-iframe").style.height = "55vw";
+                document.getElementById("pdf-img").style.width = "40vw";
+                document.getElementById("pdf-img").style.height = "95vw";
                 break;
             case 2:
-                document.getElementById("pdf-iframe").style.width = "45vw";
-                document.getElementById("pdf-iframe").style.height = "60vw";
+                document.getElementById("pdf-img").style.width = "45vw";
+                document.getElementById("pdf-img").style.height = "100vw";
                 break;
             case 3:
-                document.getElementById("pdf-iframe").style.width = "50vw";
-                document.getElementById("pdf-iframe").style.height = "65vw";
+                document.getElementById("pdf-img").style.width = "50vw";
+                document.getElementById("pdf-img").style.height = "110vw";
                 break;
             case 4:
-                document.getElementById("pdf-iframe").style.width = "60vw";
-                document.getElementById("pdf-iframe").style.height = "75vw";
+                document.getElementById("pdf-img").style.width = "60vw";
+                document.getElementById("pdf-img").style.height = "120vw";
                 break;
             case 5:
-                document.getElementById("pdf-iframe").style.width = "80vw";
-                document.getElementById("pdf-iframe").style.height = "95vw";
+                document.getElementById("pdf-img").style.width = "80vw";
+                document.getElementById("pdf-img").style.height = "150vw";
                 break;   
         }
         if (anzahlKlicks < -1){
