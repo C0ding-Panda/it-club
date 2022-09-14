@@ -36,7 +36,7 @@ a{
 }
 #pdf-img{
     width: 35vw;
-    height:90vw;
+    height:110vw;
     border-style: solid;
     border-radius: 3vw;
     border-width: 1vw;
@@ -117,6 +117,14 @@ a{
     justify-content: center;
     border-style: hidden;
     border-radius: 20vw;
+    margin-left: 2%;
+}
+#weblink{
+    text-decoration: none;
+    color: black;
+    font-size: 3vw;
+    margin-left: 3%;
+    font-weight: 500;
 }
 #coderin{
     width: 50vw;
